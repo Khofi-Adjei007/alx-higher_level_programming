@@ -15,5 +15,5 @@ elif new_zero_number == 0:
     print(f"Last digit of {number} is {new_zero_number} and is 0")
 elif new_negative_number:
     print(
-        f"Last digit of {number} is {new_negative_number} and is less than 6 and not 0")
+        f"Last digit of {number} is -{new_negative_number} and is less than 6 and not 0")
 
