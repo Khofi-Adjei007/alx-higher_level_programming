@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('A') - 1, -1):
-    letter = chr(i)
-    case = 'lowercase' if i % 2 == 0 else 'uppercase'
-    print("{:s}".format(letter.lower() if case ==
-          'lowercase' else letter.upper()), end="")
 
-print()
-
+for i in range(90, 64, -1):
+    print(chr(i), end='')
+    print(chr(i + 32), end='')
