@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-
-"""Define funciton and pass it the list argument"""
 def print_list_integer(my_list=[]):
     for num in my_list:
-        print("{}".format(num))
+        print("{:d}".format(num))
 
-# Use Case - 1
-my_list = []
+my_list = [1, 2, 3, 4, 5]
 print_list_integer(my_list)
