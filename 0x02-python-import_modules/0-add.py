@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-# add_0.py
-def add(a, b):
-    return a + b
 
-# main program
+def add(a, b):
+    return a +
+
 import add_0
 
 a = 1
