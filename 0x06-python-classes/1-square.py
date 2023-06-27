@@ -8,6 +8,7 @@ class Square:
             size (int): The size of the square.
 
         Attributes:
-            __size (int): The private instance attribute representing the size of the square.
+            __size (int): The private instance
+            attribute representing the size of the square.
         """
         self.__size = size
